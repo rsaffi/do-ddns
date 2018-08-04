@@ -9,6 +9,8 @@ I use `telegram-send` (https://pypi.org/project/telegram-send/) for posting a me
 
 For talking to DigitalOcean's API I use `doctl` (https://github.com/digitalocean/doctl).
 
+I also used `dig` to query the IP directly from DigitalOcean's nameserver. On Debian based systems you can get `dig` by installing the package `dnsutils`.
+
 I won't go through the steps of setting these up, but it's pretty straighforward. Tutorials can be found on each project's repositories.
 
 To use the script, simply call it passing as argument the domain you want to update the IP for:
