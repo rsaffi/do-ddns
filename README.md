@@ -1,7 +1,7 @@
 # do-ddns
 Use DigitalOcean DNS as an alternative to DynDNS, No-IP etc.
 
-This simple shell script updates an IP for a given domain on your DigitalOcean DNS to the current IP from where it's executed and notifies you on Telegram of the updates.
+This simple shell script updates an IP for a given subdomain on your DigitalOcean's DNS to the current IP from where it's executed and notifies you on Telegram of the update.
 
 I myself have a group on Telegram with bots for each my private servers. For my home servers in Berlin and São Paulo the respective bots post there whenever there's an update for the dynamic IP on my home connections.
 
