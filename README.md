@@ -20,6 +20,8 @@ ricardo@homeserver ~ $ /usr/local/bin/do-ddns.sh subdomain.example.org
 ricardo@homeserver ~ $
 ```
 
+I have it running on my crontab every 3 minutes.
+
 Sample output on Telegram:
 
 ![Alt](/do-ddns_sample.png "Sample output")
