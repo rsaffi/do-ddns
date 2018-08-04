@@ -13,7 +13,7 @@ I also used `dig` to query the IP directly from DigitalOcean's nameserver. On De
 
 I won't go through the steps of setting these up, but it's pretty straighforward. Tutorials can be found on each project's repositories.
 
-To use the script, simply call it passing as argument the domain you want to update the IP for:
+To use the script, simply call it passing as argument the FQDN of the subdomain you want to update the IP for:
 
 ```
 ricardo@homeserver ~ $ /usr/local/bin/do-ddns.sh subdomain.example.org
